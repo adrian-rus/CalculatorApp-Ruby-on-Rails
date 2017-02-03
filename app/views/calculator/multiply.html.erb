@@ -1,0 +1,11 @@
+<h1>Simple Calculator</h1>
+<%= form_tag "/multiply" do %>
+<%= text_field_tag :a %>
+<%= text_field_tag :b %>
+<%= submit_tag "*" %>
+<% end %>
+
+<hr>
+
+<h1>Multiplication</h1>
+<%= @a %> * <%= @b %> = <%= @result %>
