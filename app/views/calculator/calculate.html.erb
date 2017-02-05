@@ -6,9 +6,25 @@
 <%= submit_tag "+" %>
 <% end %>
 
+<h3>Subtraction</h3>
+<%= form_tag "/subtract" do %>
+<%= text_field_tag :a %>
+<%= text_field_tag :b %>
+<%= submit_tag "-" %>
+<% end %>
+
+<hr>
+
 <h3>Multiplication</h3>
 <%= form_tag "/multiply" do %>
 <%= text_field_tag :a %>
 <%= text_field_tag :b %>
 <%= submit_tag "*" %>
+<% end %>
+
+<h3>Division</h3>
+<%= form_tag "/divide" do %>
+<%= text_field_tag :a %>
+<%= text_field_tag :b %>
+<%= submit_tag "/" %>
 <% end %>

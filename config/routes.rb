@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   get '/calculate' => 'calculator#calculate'
   post '/sum' => 'calculator#sum'
   post '/multiply' => 'calculator#multiply'
+  post '/divide' => 'calculator#divide'
+  post '/subtract' => 'calculator#subtract'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
