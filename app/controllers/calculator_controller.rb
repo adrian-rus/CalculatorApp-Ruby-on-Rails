@@ -1,5 +1,9 @@
 class CalculatorController < ApplicationController
     require 'arithmetic_calculator'
+    
+    def calculate
+    end
+  
     def sum
         @a = params[:a]
         @b = params[:b]
